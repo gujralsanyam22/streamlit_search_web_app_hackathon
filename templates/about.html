@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Flask</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    {{data}}
+    <h1> About Streamlit</h1>
+    <p> Streamlit is a micro web framework written in Python.</p>
+    <p> Applications that use the Streamlit framework include Pinterest,
+      LinkedIn, and the community web page for Streamlit itself.</p>
+      
+    {% endblock %}
+  </body>
+</html>
