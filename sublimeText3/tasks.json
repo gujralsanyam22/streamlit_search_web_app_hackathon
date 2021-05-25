@@ -20,7 +20,7 @@
 			],
 			"dockerRun": {
 				"env": {
-					"FLASK_APP": "main.py"
+					"STREAMLIT_APP": "main.py"
 				}
 			},
 			"python": {
